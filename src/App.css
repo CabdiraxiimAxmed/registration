@@ -1,0 +1,44 @@
+.forms {
+  display: flex;
+}
+.forms div {
+  margin: 4px;
+}
+input  {
+  padding: 5px;
+  margin-top: 4px;
+}
+label {
+  width: 8rem;
+  margin-top: 15px;
+  display: block;
+}
+.registration-form {
+  padding: 5px;
+  border-radius: 5px;
+  width: 28rem;
+  background: #DDE6ED;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.submit-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-container button {
+  border-radius: 5px;
+  width: 7.4rem;
+  height: 1.9rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+.submit-container button:hover {
+  background-color: #27374D;
+  color: white;
+}
