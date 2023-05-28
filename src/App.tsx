@@ -30,7 +30,7 @@ function App() {
         </div>
         </div>
       <div className='submit-container'>
-        <button onClick={handleClick}>Submit </button>
+        <button onClick={handleClick}>send </button>
       </div>
       </div>
     );
